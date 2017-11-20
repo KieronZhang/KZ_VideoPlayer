@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA5EC121FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEA5EC101FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle */; };
+		AEA5EC131FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EC111FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework */; };
+		AEF177461E0F1671003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177451E0F1671003D041A /* main.m */; };
+		AEF177491E0F1671003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177481E0F1671003D041A /* AppDelegate.m */; };
+		AEF1774C1E0F1671003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1774B1E0F1671003D041A /* ViewController.m */; };
+		AEF1774F1E0F1671003D041A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1774D1E0F1671003D041A /* Main.storyboard */; };
+		AEF177511E0F1671003D041A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF177501E0F1671003D041A /* Assets.xcassets */; };
+		AEF177541E0F1671003D041A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF177521E0F1671003D041A /* LaunchScreen.storyboard */; };
+		AEF177871E0F1752003D041A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF177861E0F1752003D041A /* AVFoundation.framework */; };
+		AEF177891E0F175A003D041A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF177881E0F175A003D041A /* MediaPlayer.framework */; };
+		AEF1778C1E0F177F003D041A /* KZ_VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1778B1E0F177F003D041A /* KZ_VideoPlayerViewController.m */; };
+		AEF1778F1E0F17A2003D041A /* KZ_VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1778E1E0F17A2003D041A /* KZ_VideoTableViewController.m */; };
+		AEF177921E0F17C5003D041A /* KZ_VideoPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177911E0F17C5003D041A /* KZ_VideoPlayerCell.m */; };
+		AEF177951E0F17E4003D041A /* KZ_VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177941E0F17E4003D041A /* KZ_VideoModel.m */; };
+		AEF177981E0F1802003D041A /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177971E0F1802003D041A /* NavigationController.m */; };
+		AEF1779A1E0F1814003D041A /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF177991E0F1814003D041A /* cover.jpg */; };
+		C823B751BEB7911D480571CF /* Pods_KZ_VideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5F96E4830E1C319AA7C018 /* Pods_KZ_VideoPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEA5EB941FC29371003D7BD1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		165A5B63525D5C478ABE108C /* Pods_KZ_VideoPlayerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_VideoPlayerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251486653E06CAA777AE5E2F /* Pods-KZ_VideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayer/Pods-KZ_VideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		47F53B47CF0BC2D425A69F1A /* Pods-KZ_VideoPlayerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayerFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayerFramework/Pods-KZ_VideoPlayerFramework.release.xcconfig"; sourceTree = "<group>"; };
+		80050ED724D2CABE81D5DF39 /* Pods-KZ_VideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayer/Pods-KZ_VideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		AEA5EC101FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_VideoPlayerBundle.bundle; sourceTree = "<group>"; };
+		AEA5EC111FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_VideoPlayerFramework.framework; sourceTree = "<group>"; };
+		AEF177411E0F1671003D041A /* KZ_VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF177451E0F1671003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEF177471E0F1671003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEF177481E0F1671003D041A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEF1774A1E0F1671003D041A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEF1774B1E0F1671003D041A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEF1774E1E0F1671003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF177501E0F1671003D041A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF177531E0F1671003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEF177551E0F1671003D041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF177861E0F1752003D041A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AEF177881E0F175A003D041A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AEF1778A1E0F177F003D041A /* KZ_VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_VideoPlayerViewController.h; sourceTree = "<group>"; };
+		AEF1778B1E0F177F003D041A /* KZ_VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_VideoPlayerViewController.m; sourceTree = "<group>"; };
+		AEF1778D1E0F17A2003D041A /* KZ_VideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_VideoTableViewController.h; sourceTree = "<group>"; };
+		AEF1778E1E0F17A2003D041A /* KZ_VideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_VideoTableViewController.m; sourceTree = "<group>"; };
+		AEF177901E0F17C5003D041A /* KZ_VideoPlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_VideoPlayerCell.h; sourceTree = "<group>"; };
+		AEF177911E0F17C5003D041A /* KZ_VideoPlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_VideoPlayerCell.m; sourceTree = "<group>"; };
+		AEF177931E0F17E4003D041A /* KZ_VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZ_VideoModel.h; sourceTree = "<group>"; };
+		AEF177941E0F17E4003D041A /* KZ_VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZ_VideoModel.m; sourceTree = "<group>"; };
+		AEF177961E0F1802003D041A /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		AEF177971E0F1802003D041A /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		AEF177991E0F1814003D041A /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		BBCC77FD9B8EA8168441A28A /* Pods-KZ_VideoPlayerFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayerFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayerFramework/Pods-KZ_VideoPlayerFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		EB5F96E4830E1C319AA7C018 /* Pods_KZ_VideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_VideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF1773E1E0F1671003D041A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF177891E0F175A003D041A /* MediaPlayer.framework in Frameworks */,
+				AEA5EC131FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework in Frameworks */,
+				AEF177871E0F1752003D041A /* AVFoundation.framework in Frameworks */,
+				C823B751BEB7911D480571CF /* Pods_KZ_VideoPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA5EC0F1FC2AEF2003D7BD1 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5EC101FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle */,
+				AEA5EC111FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		AEF177381E0F1671003D041A = {
+			isa = PBXGroup;
+			children = (
+				AEF177431E0F1671003D041A /* KZ_VideoPlayer */,
+				AEF177421E0F1671003D041A /* Products */,
+				AEF177851E0F1752003D041A /* Frameworks */,
+				B83C7CF61E3ED4490713700A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF177421E0F1671003D041A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF177411E0F1671003D041A /* KZ_VideoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF177431E0F1671003D041A /* KZ_VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AEF177471E0F1671003D041A /* AppDelegate.h */,
+				AEF177481E0F1671003D041A /* AppDelegate.m */,
+				AEF1774A1E0F1671003D041A /* ViewController.h */,
+				AEF1774B1E0F1671003D041A /* ViewController.m */,
+				AEF1778A1E0F177F003D041A /* KZ_VideoPlayerViewController.h */,
+				AEF1778B1E0F177F003D041A /* KZ_VideoPlayerViewController.m */,
+				AEF1778D1E0F17A2003D041A /* KZ_VideoTableViewController.h */,
+				AEF1778E1E0F17A2003D041A /* KZ_VideoTableViewController.m */,
+				AEF177901E0F17C5003D041A /* KZ_VideoPlayerCell.h */,
+				AEF177911E0F17C5003D041A /* KZ_VideoPlayerCell.m */,
+				AEF177931E0F17E4003D041A /* KZ_VideoModel.h */,
+				AEF177941E0F17E4003D041A /* KZ_VideoModel.m */,
+				AEF177961E0F1802003D041A /* NavigationController.h */,
+				AEF177971E0F1802003D041A /* NavigationController.m */,
+				AEF177991E0F1814003D041A /* cover.jpg */,
+				AEA5EC0F1FC2AEF2003D7BD1 /* VideoPlayer */,
+				AEF1774D1E0F1671003D041A /* Main.storyboard */,
+				AEF177501E0F1671003D041A /* Assets.xcassets */,
+				AEF177521E0F1671003D041A /* LaunchScreen.storyboard */,
+				AEF177551E0F1671003D041A /* Info.plist */,
+				AEF177441E0F1671003D041A /* Supporting Files */,
+			);
+			path = KZ_VideoPlayer;
+			sourceTree = "<group>";
+		};
+		AEF177441E0F1671003D041A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF177451E0F1671003D041A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEF177851E0F1752003D041A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEF177881E0F175A003D041A /* MediaPlayer.framework */,
+				AEF177861E0F1752003D041A /* AVFoundation.framework */,
+				EB5F96E4830E1C319AA7C018 /* Pods_KZ_VideoPlayer.framework */,
+				165A5B63525D5C478ABE108C /* Pods_KZ_VideoPlayerFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B83C7CF61E3ED4490713700A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				251486653E06CAA777AE5E2F /* Pods-KZ_VideoPlayer.debug.xcconfig */,
+				80050ED724D2CABE81D5DF39 /* Pods-KZ_VideoPlayer.release.xcconfig */,
+				BBCC77FD9B8EA8168441A28A /* Pods-KZ_VideoPlayerFramework.debug.xcconfig */,
+				47F53B47CF0BC2D425A69F1A /* Pods-KZ_VideoPlayerFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF177401E0F1671003D041A /* KZ_VideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF1776E1E0F1671003D041A /* Build configuration list for PBXNativeTarget "KZ_VideoPlayer" */;
+			buildPhases = (
+				E37318C706B26A1AF2F7261C /* [CP] Check Pods Manifest.lock */,
+				AEF1773D1E0F1671003D041A /* Sources */,
+				AEF1773E1E0F1671003D041A /* Frameworks */,
+				AEF1773F1E0F1671003D041A /* Resources */,
+				E80EA953FD07378234A2D9B1 /* [CP] Embed Pods Frameworks */,
+				F18C0FE2FC72465B9CBBA215 /* [CP] Copy Pods Resources */,
+				AEA5EB941FC29371003D7BD1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZ_VideoPlayer;
+			productName = KZ_VideoPlayer;
+			productReference = AEF177411E0F1671003D041A /* KZ_VideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF177391E0F1671003D041A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Kieron Zhang";
+				TargetAttributes = {
+					AEF177401E0F1671003D041A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = TGTFTDLM8G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AEF1773C1E0F1671003D041A /* Build configuration list for PBXProject "KZ_VideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEF177381E0F1671003D041A;
+			productRefGroup = AEF177421E0F1671003D041A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF177401E0F1671003D041A /* KZ_VideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF1773F1E0F1671003D041A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF177541E0F1671003D041A /* LaunchScreen.storyboard in Resources */,
+				AEF177511E0F1671003D041A /* Assets.xcassets in Resources */,
+				AEA5EC121FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle in Resources */,
+				AEF1774F1E0F1671003D041A /* Main.storyboard in Resources */,
+				AEF1779A1E0F1814003D041A /* cover.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E37318C706B26A1AF2F7261C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KZ_VideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E80EA953FD07378234A2D9B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KZ_VideoPlayer/Pods-KZ_VideoPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_VideoPlayer/Pods-KZ_VideoPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18C0FE2FC72465B9CBBA215 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_VideoPlayer/Pods-KZ_VideoPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF1773D1E0F1671003D041A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF1778C1E0F177F003D041A /* KZ_VideoPlayerViewController.m in Sources */,
+				AEF1774C1E0F1671003D041A /* ViewController.m in Sources */,
+				AEF177951E0F17E4003D041A /* KZ_VideoModel.m in Sources */,
+				AEF177491E0F1671003D041A /* AppDelegate.m in Sources */,
+				AEF177921E0F17C5003D041A /* KZ_VideoPlayerCell.m in Sources */,
+				AEF177981E0F1802003D041A /* NavigationController.m in Sources */,
+				AEF1778F1E0F17A2003D041A /* KZ_VideoTableViewController.m in Sources */,
+				AEF177461E0F1671003D041A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEF1774D1E0F1671003D041A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF1774E1E0F1671003D041A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF177521E0F1671003D041A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF177531E0F1671003D041A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEF1776C1E0F1671003D041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF1776D1E0F1671003D041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF1776F1E0F1671003D041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251486653E06CAA777AE5E2F /* Pods-KZ_VideoPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_VideoPlayer/VideoPlayer",
+				);
+				INFOPLIST_FILE = KZ_VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.VideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AEF177701E0F1671003D041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80050ED724D2CABE81D5DF39 /* Pods-KZ_VideoPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_VideoPlayer/VideoPlayer",
+				);
+				INFOPLIST_FILE = KZ_VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.VideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF1773C1E0F1671003D041A /* Build configuration list for PBXProject "KZ_VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF1776C1E0F1671003D041A /* Debug */,
+				AEF1776D1E0F1671003D041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF1776E1E0F1671003D041A /* Build configuration list for PBXNativeTarget "KZ_VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF1776F1E0F1671003D041A /* Debug */,
+				AEF177701E0F1671003D041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEF177391E0F1671003D041A /* Project object */;
+}

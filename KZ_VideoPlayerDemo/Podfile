@@ -1,0 +1,11 @@
+platform :ios, ‘8.0’
+
+use_frameworks!
+
+target 'KZ_VideoPlayer' do
+    
+    pod 'KZ_MacroDefinition'
+    pod 'KZ_Categories'
+    pod 'Masonry'
+    
+end
