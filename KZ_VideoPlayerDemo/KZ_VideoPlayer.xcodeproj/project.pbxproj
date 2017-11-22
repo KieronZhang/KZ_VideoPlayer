@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE9A25FA1FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25F91FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework */; };
 		AEA5EC121FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEA5EC101FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle */; };
-		AEA5EC131FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EC111FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework */; };
 		AEF177461E0F1671003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177451E0F1671003D041A /* main.m */; };
 		AEF177491E0F1671003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177481E0F1671003D041A /* AppDelegate.m */; };
 		AEF1774C1E0F1671003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1774B1E0F1671003D041A /* ViewController.m */; };
@@ -44,8 +44,8 @@
 		251486653E06CAA777AE5E2F /* Pods-KZ_VideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayer/Pods-KZ_VideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		47F53B47CF0BC2D425A69F1A /* Pods-KZ_VideoPlayerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayerFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayerFramework/Pods-KZ_VideoPlayerFramework.release.xcconfig"; sourceTree = "<group>"; };
 		80050ED724D2CABE81D5DF39 /* Pods-KZ_VideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayer/Pods-KZ_VideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		AE9A25F91FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_VideoPlayerFramework.framework; sourceTree = "<group>"; };
 		AEA5EC101FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_VideoPlayerBundle.bundle; sourceTree = "<group>"; };
-		AEA5EC111FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_VideoPlayerFramework.framework; sourceTree = "<group>"; };
 		AEF177411E0F1671003D041A /* KZ_VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF177451E0F1671003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEF177471E0F1671003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF177891E0F175A003D041A /* MediaPlayer.framework in Frameworks */,
-				AEA5EC131FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework in Frameworks */,
+				AE9A25FA1FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework in Frameworks */,
 				AEF177871E0F1752003D041A /* AVFoundation.framework in Frameworks */,
 				C823B751BEB7911D480571CF /* Pods_KZ_VideoPlayer.framework in Frameworks */,
 			);
@@ -91,8 +91,8 @@
 		AEA5EC0F1FC2AEF2003D7BD1 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				AE9A25F91FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework */,
 				AEA5EC101FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle */,
-				AEA5EC111FC2AEF2003D7BD1 /* KZ_VideoPlayerFramework.framework */,
 			);
 			path = VideoPlayer;
 			sourceTree = "<group>";
