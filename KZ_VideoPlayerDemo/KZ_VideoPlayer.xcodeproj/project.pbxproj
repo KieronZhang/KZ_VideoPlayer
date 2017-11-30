@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE9A25FA1FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25F91FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework */; };
-		AEA5EC121FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEA5EC101FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle */; };
 		AEF177461E0F1671003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177451E0F1671003D041A /* main.m */; };
 		AEF177491E0F1671003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177481E0F1671003D041A /* AppDelegate.m */; };
 		AEF1774C1E0F1671003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1774B1E0F1671003D041A /* ViewController.m */; };
@@ -23,6 +21,8 @@
 		AEF177951E0F17E4003D041A /* KZ_VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177941E0F17E4003D041A /* KZ_VideoModel.m */; };
 		AEF177981E0F1802003D041A /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177971E0F1802003D041A /* NavigationController.m */; };
 		AEF1779A1E0F1814003D041A /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEF177991E0F1814003D041A /* cover.jpg */; };
+		AEFCC1E81FCFEB2000CD8FB4 /* KZ_VideoPlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFCC1E61FCFEB2000CD8FB4 /* KZ_VideoPlayerFramework.framework */; };
+		AEFCC1E91FCFEB2000CD8FB4 /* KZ_VideoPlayerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEFCC1E71FCFEB2000CD8FB4 /* KZ_VideoPlayerBundle.bundle */; };
 		C823B751BEB7911D480571CF /* Pods_KZ_VideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5F96E4830E1C319AA7C018 /* Pods_KZ_VideoPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,8 +44,6 @@
 		251486653E06CAA777AE5E2F /* Pods-KZ_VideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayer/Pods-KZ_VideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		47F53B47CF0BC2D425A69F1A /* Pods-KZ_VideoPlayerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayerFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayerFramework/Pods-KZ_VideoPlayerFramework.release.xcconfig"; sourceTree = "<group>"; };
 		80050ED724D2CABE81D5DF39 /* Pods-KZ_VideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayer/Pods-KZ_VideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
-		AE9A25F91FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_VideoPlayerFramework.framework; sourceTree = "<group>"; };
-		AEA5EC101FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_VideoPlayerBundle.bundle; sourceTree = "<group>"; };
 		AEF177411E0F1671003D041A /* KZ_VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF177451E0F1671003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEF177471E0F1671003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +67,8 @@
 		AEF177961E0F1802003D041A /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		AEF177971E0F1802003D041A /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		AEF177991E0F1814003D041A /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		AEFCC1E61FCFEB2000CD8FB4 /* KZ_VideoPlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_VideoPlayerFramework.framework; sourceTree = "<group>"; };
+		AEFCC1E71FCFEB2000CD8FB4 /* KZ_VideoPlayerBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_VideoPlayerBundle.bundle; sourceTree = "<group>"; };
 		BBCC77FD9B8EA8168441A28A /* Pods-KZ_VideoPlayerFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayerFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayerFramework/Pods-KZ_VideoPlayerFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		EB5F96E4830E1C319AA7C018 /* Pods_KZ_VideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_VideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,7 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF177891E0F175A003D041A /* MediaPlayer.framework in Frameworks */,
-				AE9A25FA1FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework in Frameworks */,
+				AEFCC1E81FCFEB2000CD8FB4 /* KZ_VideoPlayerFramework.framework in Frameworks */,
 				AEF177871E0F1752003D041A /* AVFoundation.framework in Frameworks */,
 				C823B751BEB7911D480571CF /* Pods_KZ_VideoPlayer.framework in Frameworks */,
 			);
@@ -91,8 +91,8 @@
 		AEA5EC0F1FC2AEF2003D7BD1 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				AE9A25F91FC5F16C00668BA7 /* KZ_VideoPlayerFramework.framework */,
-				AEA5EC101FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle */,
+				AEFCC1E71FCFEB2000CD8FB4 /* KZ_VideoPlayerBundle.bundle */,
+				AEFCC1E61FCFEB2000CD8FB4 /* KZ_VideoPlayerFramework.framework */,
 			);
 			path = VideoPlayer;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			files = (
 				AEF177541E0F1671003D041A /* LaunchScreen.storyboard in Resources */,
 				AEF177511E0F1671003D041A /* Assets.xcassets in Resources */,
-				AEA5EC121FC2AEF2003D7BD1 /* KZ_VideoPlayerBundle.bundle in Resources */,
+				AEFCC1E91FCFEB2000CD8FB4 /* KZ_VideoPlayerBundle.bundle in Resources */,
 				AEF1774F1E0F1671003D041A /* Main.storyboard in Resources */,
 				AEF1779A1E0F1814003D041A /* cover.jpg in Resources */,
 			);
