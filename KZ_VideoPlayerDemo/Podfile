@@ -1,11 +1,11 @@
-platform :ios, ‘8.0’
+platform :ios, '8.0'
 
 use_frameworks!
 
-target 'KZ_VideoPlayer' do
+target 'KZ_VideoPlayer_iOS' do
     
     pod 'KZ_MacroDefinition'
     pod 'KZ_Categories'
-    pod 'Masonry'
+    pod 'KZ_Constraints'
     
 end
