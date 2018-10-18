@@ -14,13 +14,13 @@
 		AE4004BE20A413B000017619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4004BD20A413B000017619 /* Assets.xcassets */; };
 		AE4004C120A413B000017619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4004BF20A413B000017619 /* LaunchScreen.storyboard */; };
 		AE4004C420A413B000017619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4004C320A413B000017619 /* main.m */; };
-		AE4004CF20A4141E00017619 /* KZ_VideoPlayer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4004CE20A4141E00017619 /* KZ_VideoPlayer_iOS.framework */; };
 		AE4004D220A4144800017619 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4004D120A4144800017619 /* NavigationController.m */; };
 		AE4004D520A4148100017619 /* KZ_VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4004D420A4148100017619 /* KZ_VideoPlayerViewController.m */; };
 		AE4004D820A4149700017619 /* KZ_VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4004D720A4149700017619 /* KZ_VideoTableViewController.m */; };
 		AE4004DB20A414B300017619 /* KZ_VideoPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4004DA20A414B300017619 /* KZ_VideoPlayerCell.m */; };
 		AE4004DE20A414CC00017619 /* KZ_VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4004DD20A414CC00017619 /* KZ_VideoModel.m */; };
 		AE4004E020A414F500017619 /* KZ_VideoPlayer_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE4004DF20A414F500017619 /* KZ_VideoPlayer_Bundle.bundle */; };
+		AEF94DF021786F3E0063EE69 /* KZ_VideoPlayer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DEF21786F3E0063EE69 /* KZ_VideoPlayer_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		AE4004C020A413B000017619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE4004C220A413B000017619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE4004C320A413B000017619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE4004CE20A4141E00017619 /* KZ_VideoPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_VideoPlayer_iOS.framework; sourceTree = "<group>"; };
 		AE4004D020A4144800017619 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		AE4004D120A4144800017619 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		AE4004D320A4148100017619 /* KZ_VideoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZ_VideoPlayerViewController.h; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		AE4004DC20A414CC00017619 /* KZ_VideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZ_VideoModel.h; sourceTree = "<group>"; };
 		AE4004DD20A414CC00017619 /* KZ_VideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZ_VideoModel.m; sourceTree = "<group>"; };
 		AE4004DF20A414F500017619 /* KZ_VideoPlayer_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_VideoPlayer_Bundle.bundle; sourceTree = "<group>"; };
+		AEF94DEF21786F3E0063EE69 /* KZ_VideoPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_VideoPlayer_iOS.framework; sourceTree = "<group>"; };
 		BC2B48370862713B5CD59A15 /* Pods_KZ_VideoPlayer_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_VideoPlayer_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD090BD4789495168E7DA13 /* Pods-KZ_VideoPlayer_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_VideoPlayer_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_VideoPlayer_iOS/Pods-KZ_VideoPlayer_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4004CF20A4141E00017619 /* KZ_VideoPlayer_iOS.framework in Frameworks */,
+				AEF94DF021786F3E0063EE69 /* KZ_VideoPlayer_iOS.framework in Frameworks */,
 				7473F8371CA6F944B2139952 /* Pods_KZ_VideoPlayer_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,7 +130,7 @@
 		AE4004CD20A4141E00017619 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				AE4004CE20A4141E00017619 /* KZ_VideoPlayer_iOS.framework */,
+				AEF94DEF21786F3E0063EE69 /* KZ_VideoPlayer_iOS.framework */,
 			);
 			path = VideoPlayer;
 			sourceTree = "<group>";
@@ -389,7 +389,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-VideoPlayer-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.VideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -413,7 +413,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-VideoPlayer-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.VideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

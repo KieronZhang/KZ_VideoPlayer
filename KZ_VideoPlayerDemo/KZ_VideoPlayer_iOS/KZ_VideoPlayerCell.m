@@ -21,7 +21,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         self.selectionStyle = UITableViewCellSelectionStyleNone;
-        coverImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 10, KZ_SCREEN_WIDTH, 200)];
+        coverImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 10, KZ_Screen_Width, 200)];
         [self.contentView addSubview:coverImageView];
         
         UIImageView *playImageView = [[UIImageView alloc] initWithImage:[UIImage kz_imageNamed:@"play" bundleClass:NSClassFromString(@"KZ_VideoPlayer") bundleName:@"KZ_VideoPlayer_Bundle"]];
