@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_VideoPlayer'
-    s.version = '0.1.3'
+    s.version = '0.1.4'
     s.summary = 'iOS video player.'
     s.homepage = 'https://github.com/KieronZhang/KZ_VideoPlayer'
     s.license = {:type => 'MIT', :file => 'LICENSE'}

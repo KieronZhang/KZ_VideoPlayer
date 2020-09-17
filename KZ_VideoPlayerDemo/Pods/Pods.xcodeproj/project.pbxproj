@@ -91,25 +91,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025A0D9FA081CDE1E1A8930E7DBFE537 /* KZ_MacroDefinition_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_MacroDefinition_iOS.framework; path = KZ_MacroDefinition/KZ_MacroDefinition_iOS.framework; sourceTree = "<group>"; };
-		0EC26DDA61ACF406466FE745D0635108 /* KZ_JSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_JSON.xcconfig; sourceTree = "<group>"; };
-		129E08A18921F12678186DA9CB2EC7E8 /* KZ_Categories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_Categories.xcconfig; sourceTree = "<group>"; };
+		10C178B0CCE1995D5D1BB7BC0F6DBCE0 /* KZ_Categories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_Categories.debug.xcconfig; sourceTree = "<group>"; };
 		1F824136308824132E514BA004490079 /* Pods-KZ_VideoPlayer_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_VideoPlayer_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D99E9DE69AE7B733B8ED3EA9FE4A380 /* KZ_Categories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_Categories.release.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3616C10409EB46884A1CD608EFB2A884 /* Pods-KZ_VideoPlayer_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_VideoPlayer_iOS.modulemap"; sourceTree = "<group>"; };
+		3F4BF4BD309432261757DD1B7453AF7A /* KZ_Constraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_Constraints.release.xcconfig; sourceTree = "<group>"; };
 		5C566E54F77AC83C680BF345CB4EA268 /* Pods-KZ_VideoPlayer_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_VideoPlayer_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		5C7FBEF3CA9568EBC6269236AAD7A7A2 /* Pods-KZ_VideoPlayer_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_VideoPlayer_iOS-umbrella.h"; sourceTree = "<group>"; };
 		71117B826BFAB2F22B28105DBA02B80D /* Pods_KZ_VideoPlayer_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_VideoPlayer_iOS.framework; path = "Pods-KZ_VideoPlayer_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B26AAB52F82ADB04C7F1B26A79FF4F0 /* Pods-KZ_VideoPlayer_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_VideoPlayer_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		8F57370B162CBA078DC0D27B9AA23105 /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_iOS.framework; path = KZ_JSON/KZ_JSON_iOS.framework; sourceTree = "<group>"; };
-		9952B6F45920D7F882495B3CC1591992 /* KZ_MacroDefinition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_MacroDefinition.xcconfig; sourceTree = "<group>"; };
+		95BE70EDE5C6CDC6B53CFE7D320C86DA /* KZ_MacroDefinition_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_MacroDefinition_iOS.framework; path = KZ_MacroDefinition/KZ_MacroDefinition_iOS.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EA35AD4E23D66D669809F3F9915121C /* KZ_Constraints.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_Constraints.xcconfig; sourceTree = "<group>"; };
 		A52C3E08A0FB71522EBAE7248C8212C9 /* Pods-KZ_VideoPlayer_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_VideoPlayer_iOS-dummy.m"; sourceTree = "<group>"; };
+		A8092A1639CC34175BDD8096BE5EB293 /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_iOS.framework; path = KZ_JSON/KZ_JSON_iOS.framework; sourceTree = "<group>"; };
 		AA80FB70DA8511BF6004736C81D9EC74 /* Pods-KZ_VideoPlayer_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_VideoPlayer_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E2BC620BAD2D5BF687DDF944DB1DAF85 /* KZ_Constraints_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Constraints_iOS.framework; path = KZ_Constraints/KZ_Constraints_iOS.framework; sourceTree = "<group>"; };
-		E4113B05E095F01C085E45E9211CA9F2 /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Categories_iOS.framework; path = KZ_Categories/KZ_Categories_iOS.framework; sourceTree = "<group>"; };
+		BEB44C5A2157A5AEFB6F55A6C6A8CDB7 /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Categories_iOS.framework; path = KZ_Categories/KZ_Categories_iOS.framework; sourceTree = "<group>"; };
+		D881548DB8F99E6630211BD3DD1E56F6 /* KZ_MacroDefinition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_MacroDefinition.release.xcconfig; sourceTree = "<group>"; };
+		D8DC44FB926E2DCCE309989C4B7933E6 /* KZ_Constraints_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Constraints_iOS.framework; path = KZ_Constraints/KZ_Constraints_iOS.framework; sourceTree = "<group>"; };
+		DE08578758AFB66FDD82D8A4C13C4AC7 /* KZ_MacroDefinition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_MacroDefinition.debug.xcconfig; sourceTree = "<group>"; };
+		EB5EA558A9A6A77950E7823E66A2BE6F /* KZ_JSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_JSON.release.xcconfig; sourceTree = "<group>"; };
 		F7BCB8244BD99B07F8290611E42AFC3A /* Pods-KZ_VideoPlayer_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_VideoPlayer_iOS-Info.plist"; sourceTree = "<group>"; };
+		F93E25A4580A230C1A668D18A0A8A981 /* KZ_JSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_JSON.debug.xcconfig; sourceTree = "<group>"; };
+		F9B3117DAB5C535BCCF11D24DA1D12D7 /* KZ_Constraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_Constraints.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,30 +128,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17748CEA4A93018D65AD42A12A639D60 /* Support Files */ = {
+		0DA73CECBE3F003D0FA52BE0411DB767 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EC26DDA61ACF406466FE745D0635108 /* KZ_JSON.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KZ_JSON";
-			sourceTree = "<group>";
-		};
-		3E6DEB83066AA4F1F98A0CE29956BE07 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E4113B05E095F01C085E45E9211CA9F2 /* KZ_Categories_iOS.framework */,
+				D8DC44FB926E2DCCE309989C4B7933E6 /* KZ_Constraints_iOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11AB2D92C4169869FE1FEBC0EBB03F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95BE70EDE5C6CDC6B53CFE7D320C86DA /* KZ_MacroDefinition_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BEE41A5BB4E77BEA42313A5FEAB25F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE08578758AFB66FDD82D8A4C13C4AC7 /* KZ_MacroDefinition.debug.xcconfig */,
+				D881548DB8F99E6630211BD3DD1E56F6 /* KZ_MacroDefinition.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_MacroDefinition";
 			sourceTree = "<group>";
 		};
 		46D9B1A20D121044A0D746A65E8F0C3C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				81B3F14AA605BF7494BFA459A4F64C0A /* KZ_Categories */,
-				85395CB8B3923EC2D119FD12B8EA5B0D /* KZ_Constraints */,
-				92D4C3487A4C11F2EA00413BF7E0DBC1 /* KZ_JSON */,
-				9DD26A07791D8637705FF07F05005DFA /* KZ_MacroDefinition */,
+				8A95AC12A1D5205AB1081283FCFB1891 /* KZ_Categories */,
+				F7FC0B3CBB07122D23682068F9D1AC3D /* KZ_Constraints */,
+				F47374F9F01A428299D00823236E9FF3 /* KZ_JSON */,
+				D531E07AB0A80C40F5AA6B714A46C34F /* KZ_MacroDefinition */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -160,15 +173,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58570F79196BC228F8B91232617C8884 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				129E08A18921F12678186DA9CB2EC7E8 /* KZ_Categories.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KZ_Categories";
-			sourceTree = "<group>";
-		};
 		5E9D8186EA0894EBBDC57AAFC571A86E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,50 +181,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7C7363743294F720E05327103042C0CD /* Frameworks */ = {
+		692D2F2CF05B0BAAA580AEAA114CF162 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F57370B162CBA078DC0D27B9AA23105 /* KZ_JSON_iOS.framework */,
+				F9B3117DAB5C535BCCF11D24DA1D12D7 /* KZ_Constraints.debug.xcconfig */,
+				3F4BF4BD309432261757DD1B7453AF7A /* KZ_Constraints.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/KZ_Constraints";
 			sourceTree = "<group>";
 		};
-		81B3F14AA605BF7494BFA459A4F64C0A /* KZ_Categories */ = {
+		8A95AC12A1D5205AB1081283FCFB1891 /* KZ_Categories */ = {
 			isa = PBXGroup;
 			children = (
-				3E6DEB83066AA4F1F98A0CE29956BE07 /* Frameworks */,
-				58570F79196BC228F8B91232617C8884 /* Support Files */,
+				C26028C1980D35E15CBE1AEB244CAAA1 /* Frameworks */,
+				9B92F77DEFE74E27AA338C736928B4EA /* Support Files */,
 			);
 			name = KZ_Categories;
 			path = KZ_Categories;
-			sourceTree = "<group>";
-		};
-		85395CB8B3923EC2D119FD12B8EA5B0D /* KZ_Constraints */ = {
-			isa = PBXGroup;
-			children = (
-				EC2D0A6E5D5161CDA303CDAE68573F68 /* Frameworks */,
-				BFB7B87DF12123EEC48D7915A6F745AB /* Support Files */,
-			);
-			name = KZ_Constraints;
-			path = KZ_Constraints;
-			sourceTree = "<group>";
-		};
-		92D4C3487A4C11F2EA00413BF7E0DBC1 /* KZ_JSON */ = {
-			isa = PBXGroup;
-			children = (
-				7C7363743294F720E05327103042C0CD /* Frameworks */,
-				17748CEA4A93018D65AD42A12A639D60 /* Support Files */,
-			);
-			name = KZ_JSON;
-			path = KZ_JSON;
-			sourceTree = "<group>";
-		};
-		9A5043FB8DA7A46A7EA2612A81411993 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				025A0D9FA081CDE1E1A8930E7DBFE537 /* KZ_MacroDefinition_iOS.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9A5755E0591F5124A3277D220D95F0B8 /* Pods-KZ_VideoPlayer_iOS */ = {
@@ -239,32 +217,14 @@
 			path = "Target Support Files/Pods-KZ_VideoPlayer_iOS";
 			sourceTree = "<group>";
 		};
-		9DD26A07791D8637705FF07F05005DFA /* KZ_MacroDefinition */ = {
+		9B92F77DEFE74E27AA338C736928B4EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A5043FB8DA7A46A7EA2612A81411993 /* Frameworks */,
-				A14D89A43B7F8F1463BCD7F3768AAD96 /* Support Files */,
-			);
-			name = KZ_MacroDefinition;
-			path = KZ_MacroDefinition;
-			sourceTree = "<group>";
-		};
-		A14D89A43B7F8F1463BCD7F3768AAD96 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9952B6F45920D7F882495B3CC1591992 /* KZ_MacroDefinition.xcconfig */,
+				10C178B0CCE1995D5D1BB7BC0F6DBCE0 /* KZ_Categories.debug.xcconfig */,
+				2D99E9DE69AE7B733B8ED3EA9FE4A380 /* KZ_Categories.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KZ_MacroDefinition";
-			sourceTree = "<group>";
-		};
-		BFB7B87DF12123EEC48D7915A6F745AB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9EA35AD4E23D66D669809F3F9915121C /* KZ_Constraints.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KZ_Constraints";
+			path = "../Target Support Files/KZ_Categories";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -273,6 +233,14 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C26028C1980D35E15CBE1AEB244CAAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEB44C5A2157A5AEFB6F55A6C6A8CDB7 /* KZ_Categories_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -286,6 +254,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		D010B24FBA4DFEBF98DDCEA50281F62E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8092A1639CC34175BDD8096BE5EB293 /* KZ_JSON_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,12 +270,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC2D0A6E5D5161CDA303CDAE68573F68 /* Frameworks */ = {
+		D531E07AB0A80C40F5AA6B714A46C34F /* KZ_MacroDefinition */ = {
 			isa = PBXGroup;
 			children = (
-				E2BC620BAD2D5BF687DDF944DB1DAF85 /* KZ_Constraints_iOS.framework */,
+				11AB2D92C4169869FE1FEBC0EBB03F37 /* Frameworks */,
+				3BEE41A5BB4E77BEA42313A5FEAB25F8 /* Support Files */,
 			);
-			name = Frameworks;
+			name = KZ_MacroDefinition;
+			path = KZ_MacroDefinition;
+			sourceTree = "<group>";
+		};
+		F47374F9F01A428299D00823236E9FF3 /* KZ_JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D010B24FBA4DFEBF98DDCEA50281F62E /* Frameworks */,
+				F66D73EC3A1A8DC51044B7CD5854329F /* Support Files */,
+			);
+			name = KZ_JSON;
+			path = KZ_JSON;
+			sourceTree = "<group>";
+		};
+		F66D73EC3A1A8DC51044B7CD5854329F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F93E25A4580A230C1A668D18A0A8A981 /* KZ_JSON.debug.xcconfig */,
+				EB5EA558A9A6A77950E7823E66A2BE6F /* KZ_JSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_JSON";
+			sourceTree = "<group>";
+		};
+		F7FC0B3CBB07122D23682068F9D1AC3D /* KZ_Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				0DA73CECBE3F003D0FA52BE0411DB767 /* Frameworks */,
+				692D2F2CF05B0BAAA580AEAA114CF162 /* Support Files */,
+			);
+			name = KZ_Constraints;
+			path = KZ_Constraints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +361,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 54ECB15FD37DD683C3FD9B42E3927589 /* Products */;
@@ -423,26 +432,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12704B9EA7793BAF4AA5F1B53CD5C169 /* Release */ = {
+		32A0141FBC5C111F45B8FD3CE0ACDADC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EC26DDA61ACF406466FE745D0635108 /* KZ_JSON.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		448CE1F3E79E413CF38A65EB3D6EE79C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EA35AD4E23D66D669809F3F9915121C /* KZ_Constraints.xcconfig */;
+			baseConfigurationReference = 2D99E9DE69AE7B733B8ED3EA9FE4A380 /* KZ_Categories.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -517,9 +509,9 @@
 			};
 			name = Release;
 		};
-		4E4EEB2AEF73E67922C4E3636F22C8F5 /* Release */ = {
+		6725616D03B90C1A8F17202E04EF567C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 129E08A18921F12678186DA9CB2EC7E8 /* KZ_Categories.xcconfig */;
+			baseConfigurationReference = 10C178B0CCE1995D5D1BB7BC0F6DBCE0 /* KZ_Categories.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -530,9 +522,8 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		682B4640D51151580833616DAF5A95BB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -570,6 +561,56 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6D87D2DF3C9305571B905F17A3D08B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4BF4BD309432261757DD1B7453AF7A /* KZ_Constraints.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7267C0A30787EBC77D8515FEB473B654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93E25A4580A230C1A668D18A0A8A981 /* KZ_JSON.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78BABB93EAAEAEFDE81C6B811AA28CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D881548DB8F99E6630211BD3DD1E56F6 /* KZ_MacroDefinition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -635,58 +676,9 @@
 			};
 			name = Debug;
 		};
-		7F8BD51558D6731C23700D3DC25F8CB7 /* Release */ = {
+		BFBA731D238139B8E72F4BE1E6E38056 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9952B6F45920D7F882495B3CC1591992 /* KZ_MacroDefinition.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8AFC9D427176FF155D0D25B213C4EE3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EC26DDA61ACF406466FE745D0635108 /* KZ_JSON.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A25DE41C17A7C150724E3ABCB91DC39F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EA35AD4E23D66D669809F3F9915121C /* KZ_Constraints.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A7C11C3D34ADF869D40F6EEA82A34D88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 129E08A18921F12678186DA9CB2EC7E8 /* KZ_Categories.xcconfig */;
+			baseConfigurationReference = DE08578758AFB66FDD82D8A4C13C4AC7 /* KZ_MacroDefinition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -738,9 +730,9 @@
 			};
 			name = Release;
 		};
-		DBBD3D395665A5CFD4898AC113C6D5FC /* Debug */ = {
+		DC86D6223F6D063B542C9F300E22D32A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9952B6F45920D7F882495B3CC1591992 /* KZ_MacroDefinition.xcconfig */;
+			baseConfigurationReference = F9B3117DAB5C535BCCF11D24DA1D12D7 /* KZ_Constraints.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -753,6 +745,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		F42BCAAECF7161109919BA682AED4190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5EA558A9A6A77950E7823E66A2BE6F /* KZ_JSON.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -769,8 +778,8 @@
 		76C5211E611DF21149CC703F3B8E34E5 /* Build configuration list for PBXAggregateTarget "KZ_MacroDefinition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBBD3D395665A5CFD4898AC113C6D5FC /* Debug */,
-				7F8BD51558D6731C23700D3DC25F8CB7 /* Release */,
+				BFBA731D238139B8E72F4BE1E6E38056 /* Debug */,
+				78BABB93EAAEAEFDE81C6B811AA28CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -787,8 +796,8 @@
 		D2D3F98899DA6C134FA31B3293926501 /* Build configuration list for PBXAggregateTarget "KZ_JSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8AFC9D427176FF155D0D25B213C4EE3B /* Debug */,
-				12704B9EA7793BAF4AA5F1B53CD5C169 /* Release */,
+				7267C0A30787EBC77D8515FEB473B654 /* Debug */,
+				F42BCAAECF7161109919BA682AED4190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -796,8 +805,8 @@
 		E128F67846A15E6F3192E3481BC520BD /* Build configuration list for PBXAggregateTarget "KZ_Constraints" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A25DE41C17A7C150724E3ABCB91DC39F /* Debug */,
-				448CE1F3E79E413CF38A65EB3D6EE79C /* Release */,
+				DC86D6223F6D063B542C9F300E22D32A /* Debug */,
+				6D87D2DF3C9305571B905F17A3D08B68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -805,8 +814,8 @@
 		F66B6B354F63A3FF1FC96F9E37FC5256 /* Build configuration list for PBXAggregateTarget "KZ_Categories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7C11C3D34ADF869D40F6EEA82A34D88 /* Debug */,
-				4E4EEB2AEF73E67922C4E3636F22C8F5 /* Release */,
+				6725616D03B90C1A8F17202E04EF567C /* Debug */,
+				32A0141FBC5C111F45B8FD3CE0ACDADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
